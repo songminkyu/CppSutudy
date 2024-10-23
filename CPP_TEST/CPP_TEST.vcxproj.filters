@@ -1,0 +1,1778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="meta programming">
+      <UniqueIdentifier>{3d4385d6-baf6-4cc1-ad33-471f863390d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="concepts">
+      <UniqueIdentifier>{0185146e-b8ea-42d2-98e2-91a9f77e6bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="coroutine">
+      <UniqueIdentifier>{361fac58-591d-4295-a943-e334a574d0be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="range">
+      <UniqueIdentifier>{bac70466-b1ce-4abb-bc28-4a39749c048b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unevaluated-context">
+      <UniqueIdentifier>{57053026-ac17-4189-a9db-f5b42dda1435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pips">
+      <UniqueIdentifier>{af02f29a-eec5-4bdf-baff-44ab86e4e038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mathematics">
+      <UniqueIdentifier>{903ac9a4-78f7-497b-a1ae-60cf6fac83a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module">
+      <UniqueIdentifier>{59b5b85a-3c55-4bca-8690-4a4e213f17fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module\Custom_Module">
+      <UniqueIdentifier>{b7f64de1-62ec-4396-ba8c-c52371b42f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module\Advenced_Module">
+      <UniqueIdentifier>{48af3e5d-3897-4a46-94a2-3267c53d2417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module\global_module_fragmen">
+      <UniqueIdentifier>{95c9f0b2-7014-4333-9dc2-355d68c536cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Injected class name">
+      <UniqueIdentifier>{0fcf699d-644e-4ca1-b7c6-755cdfccd9c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bitset">
+      <UniqueIdentifier>{6bfcf6e0-9d59-4422-9022-f55e07c105b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="incomplete type">
+      <UniqueIdentifier>{654f1111-02a3-4a3a-bf2e-f00e291e55ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inserter">
+      <UniqueIdentifier>{b58651bc-d7a7-441d-b819-c6fc97189fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="find">
+      <UniqueIdentifier>{b2650dac-a664-4b5e-bccd-57d263f19a1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="range\views">
+      <UniqueIdentifier>{86cab24e-ebf3-492d-9b4b-5ad3ddaab331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="range\actions">
+      <UniqueIdentifier>{8268b491-21d7-4976-b08b-d3204eeb3438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="merges">
+      <UniqueIdentifier>{65278fb8-d66e-4516-ba5d-1d1da93c7ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="range\join">
+      <UniqueIdentifier>{734c4748-0f6a-458c-8345-cf84abfb2682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="range\range_exam">
+      <UniqueIdentifier>{b5abf879-5a77-4f58-ba87-193d2ad7986e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thread">
+      <UniqueIdentifier>{24b8284c-8f33-457c-a9bb-f84bdd9dadd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIMD">
+      <UniqueIdentifier>{285b4f67-41f7-4e90-b788-1c7c2a000212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="transform">
+      <UniqueIdentifier>{6120c21e-00fe-4ed8-9c3d-abd74c1092d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="range\zip">
+      <UniqueIdentifier>{6fb7a191-3147-4bc0-9967-ad377ff19530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="container">
+      <UniqueIdentifier>{032460d5-f149-4eb3-878f-a2b7956e41a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io">
+      <UniqueIdentifier>{de6c7e17-fd75-4b28-9b70-7b9e4a172493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="random">
+      <UniqueIdentifier>{2e228b6b-ab41-4a98-b7b0-e77e3206c047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="explicit specialization">
+      <UniqueIdentifier>{ded5bdab-064b-4212-b47b-621fe0dcb9d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="range\iterator">
+      <UniqueIdentifier>{c8a77f79-0348-4c38-8af8-0dc4ff8db7d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Regex">
+      <UniqueIdentifier>{77bda0ca-55d4-4158-bd18-9f5102fc08dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="member_function">
+      <UniqueIdentifier>{5fd0a46a-6cdc-42be-83e7-6a4f7244c609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{d496c175-1a54-42f1-8a75-e66e132e4204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="smart_point">
+      <UniqueIdentifier>{e884f257-cb73-4235-97cc-c15a2b72b90a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mutex">
+      <UniqueIdentifier>{84ee11ed-bf93-4e17-9825-989df1a6dcbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP_Fluent">
+      <UniqueIdentifier>{00fbf602-f6b5-446b-9a9e-d6802e465e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP_Fluent\extract">
+      <UniqueIdentifier>{b97ae3e5-1cb9-40f5-b56e-069a2026c36b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP_Fluent\Else_Before_If">
+      <UniqueIdentifier>{a13eea8e-9d3a-4199-a670-da92360e6b57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP_Fluent\NamedType">
+      <UniqueIdentifier>{3c8bb0c4-3373-43f0-841e-b5692992a14a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helper_function">
+      <UniqueIdentifier>{3657ac13-d6cb-448d-89b8-14eb47d36f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="range\cpp_itertools">
+      <UniqueIdentifier>{9e6e50be-9a9d-4bc7-84e1-85494c6a6b27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="span">
+      <UniqueIdentifier>{80eca9d1-6a45-46f0-86ec-3a85631996cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{4828dc7d-c8b5-4658-840f-d3699ed976ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpprest_ful">
+      <UniqueIdentifier>{b2504d60-2caa-4e65-bfab-04605e6d7c8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lambda">
+      <UniqueIdentifier>{e21a45aa-7993-41b5-ba7f-a696f0eb0c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Comparison Operator">
+      <UniqueIdentifier>{0b722c10-7ebf-4913-8b6c-259cbe0ac1ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floating point">
+      <UniqueIdentifier>{c5d0452f-1b14-4405-94e8-2afe16fa0790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Optional">
+      <UniqueIdentifier>{54863ade-44e1-4ef8-8035-b0deb838899a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bitset\HighPerfBitPattern">
+      <UniqueIdentifier>{5d34a1b6-4490-43cb-9f2c-8a18692d5122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modern DesignPattern">
+      <UniqueIdentifier>{49470bbe-87c2-4944-a2c0-4a405d59c828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enum_switch">
+      <UniqueIdentifier>{889ac1be-2d10-493b-b10e-36ab62b9abd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Initializers">
+      <UniqueIdentifier>{ef32ee9f-d92e-4f37-8508-6cd881546971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Initializers\Designated Initializers">
+      <UniqueIdentifier>{d134c96b-8c04-45c7-9768-d9f51de3eb68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modern DesignPattern\Factory">
+      <UniqueIdentifier>{5deeeb1a-fc35-4cef-a03a-dcf48053f7d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modern DesignPattern\Builder">
+      <UniqueIdentifier>{21846135-34f5-4eaf-99d5-6a905fc9ea1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modern DesignPattern\Builder\PersonBuilder">
+      <UniqueIdentifier>{9e9ed1fe-79a2-4aaa-9f68-ad4ac65dec1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modern DesignPattern\Prototype">
+      <UniqueIdentifier>{1c71ff45-86c8-4771-9df0-813c37839742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modern DesignPattern\CRTP">
+      <UniqueIdentifier>{b9260276-4ed4-4156-84c4-cf46827fabeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modern DesignPattern\singleton">
+      <UniqueIdentifier>{0f9b5167-f30f-4f48-88ec-597e4c93eb5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFINAE">
+      <UniqueIdentifier>{254532f7-7405-4399-a2e9-a327779841fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delegate">
+      <UniqueIdentifier>{12466822-d798-4c4f-9c28-3763b6f848af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thread\TaskFlow">
+      <UniqueIdentifier>{600bf49c-790e-4e52-844b-03d3ffa0ad38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="range\format">
+      <UniqueIdentifier>{c8e5dd64-19f4-4dea-8174-1ab275ee8965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modern DesignPattern\Facade">
+      <UniqueIdentifier>{fc5dd92b-17b6-4fe8-b6fb-b1c22bb93175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modern DesignPattern\Flyweight">
+      <UniqueIdentifier>{f1763928-c85e-4a07-a79b-014e4d5dcd8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="concepts\neo">
+      <UniqueIdentifier>{aabdc2fb-a896-4a99-9a3d-58820d41c805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="abbreviated function template">
+      <UniqueIdentifier>{f20c1cf6-86cd-4cf8-b900-fc849fe6ac66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visit">
+      <UniqueIdentifier>{eab3ddf2-ff1a-4b78-b06b-45f99dc75afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inplace_type">
+      <UniqueIdentifier>{2045c5d9-f717-4ab6-b290-9f52f22ea620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="apply">
+      <UniqueIdentifier>{e7dd17d2-b0b7-4aa9-b589-e551c4402808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functor">
+      <UniqueIdentifier>{88704b8f-f249-4bb1-acac-a96ab55d5946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="meta programming\type_action">
+      <UniqueIdentifier>{03d451ce-1375-47b2-86c0-b6a27aecba15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="meta programming\typefunction">
+      <UniqueIdentifier>{458c4d70-76d6-4cc6-8b45-8124bbc0a27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Today Trick Code">
+      <UniqueIdentifier>{964979e2-d834-4947-89cc-9118c1759376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Today Trick Code\Lambda_recursive">
+      <UniqueIdentifier>{671eecd7-5e59-42b7-be76-a9ba6c087286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Today Trick Code\enumerate_pack">
+      <UniqueIdentifier>{c1e83828-f03d-4a58-9796-96a0dd2f6cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="date">
+      <UniqueIdentifier>{a8d25ebf-d306-4174-ae4b-a80497f5e41e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mathematics\Probability statistics">
+      <UniqueIdentifier>{a27f92b6-8a51-406d-9c1e-2c171c78028c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mathematics\Probability statistics\distribution">
+      <UniqueIdentifier>{ca99dd18-15ad-4b5d-9b6a-f3c3e3d8efb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json\nlohmann">
+      <UniqueIdentifier>{d4c6b4af-b79a-4e97-b369-5eac19440860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json\SimdJson">
+      <UniqueIdentifier>{491f8726-ef61-4533-ad6b-e638d8ff5ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Today Trick Code\sort">
+      <UniqueIdentifier>{baaf0f0c-5f5d-4624-9bfa-949e02c6110d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Copy">
+      <UniqueIdentifier>{cfe8a4e6-69c9-4734-99ee-4f81b7f7a7db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mathematics\Probability statistics\distribution\Benford-rand">
+      <UniqueIdentifier>{e8a6c6c3-b1b4-4999-b223-c75f87ad2c21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{d1be8486-0ddb-4130-825d-ff2866c36375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="meta programming\Pack expansion">
+      <UniqueIdentifier>{56894fed-3083-476f-bcd9-d71c536aa7ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="meta programming\Pack expansion\Tuple">
+      <UniqueIdentifier>{4b64694c-6886-4ba2-865d-1c52cf4a7514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="meta programming\Pack expansion\fold expression">
+      <UniqueIdentifier>{ebf78dec-edc4-44e8-bcb9-211f8c550e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP_Fluent\double_key_map">
+      <UniqueIdentifier>{a7372913-9006-41bd-a141-326e1d0796ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory_alignas">
+      <UniqueIdentifier>{fe71f34f-cc00-407f-9ae6-266ba972355b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="meta programming\Tuple">
+      <UniqueIdentifier>{c7ab0542-7e74-455a-8ea9-c7e88102c5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="concepts\sandordargo_blog">
+      <UniqueIdentifier>{deeb8f70-d14a-4059-a948-6cfa8dda4ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thread\coroutine">
+      <UniqueIdentifier>{dad4dc9b-c13b-4852-8047-412f2c844737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="meta programming\invoke">
+      <UniqueIdentifier>{35242295-d0cc-4915-ada5-a00587697f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Calendar">
+      <UniqueIdentifier>{ef1485c2-d379-4275-9946-5fd027fc045d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Calendar\Chrono_Claender">
+      <UniqueIdentifier>{4bfceb52-aa83-4735-904d-900976519890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrimaryType">
+      <UniqueIdentifier>{65787dfb-139f-48e6-945c-61c612693f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module\ModuleTest">
+      <UniqueIdentifier>{8407e169-2e5d-492d-977b-03c264adf795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DictionaryType">
+      <UniqueIdentifier>{012288fc-9d43-4eed-8e73-09d2dd13d3f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CppOpenSource">
+      <UniqueIdentifier>{94dabc7a-6f96-48fc-a319-edf2c1bfbb0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CppOpenSource\StructBinding">
+      <UniqueIdentifier>{c03bbfc3-8a55-453b-b2df-d84b4f5daf6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CppOpenSource\thread">
+      <UniqueIdentifier>{15d24ad1-15d4-446f-990d-ed3481a29aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CppOpenSource\Folding">
+      <UniqueIdentifier>{74415c8f-ddf3-499e-802c-ad96f18b7cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delegate\fast_delegate">
+      <UniqueIdentifier>{38f9342e-74b5-4c9e-9dc6-a51166886056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delegate\fast_delegate\Demo">
+      <UniqueIdentifier>{06d9daed-79fc-4bd6-956a-1bb44714ec3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delegate\fast_delegate\Header">
+      <UniqueIdentifier>{fffbedce-6b4f-4af1-8ec5-750395b1521b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delegate\simple_delegate2">
+      <UniqueIdentifier>{0d20bc91-7f0d-4d1c-8089-883d40089e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delegate\simple_delegate1">
+      <UniqueIdentifier>{f62294bb-1ef1-49e4-b5ee-0a5e24450f0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="string_start_end_with.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="associated_unordered_container.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="take_view.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_mem.cpp">
+      <Filter>mathematics\Probability statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="소스4.cpp">
+      <Filter>mathematics\Probability statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineTemplateClass.cpp">
+      <Filter>mathematics\Probability statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="Non-deterministic_Random_Generator.cpp">
+      <Filter>mathematics\Probability statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="generate_canonical.cpp">
+      <Filter>mathematics\Probability statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="exponential_distribution.cpp">
+      <Filter>mathematics\Probability statistics\distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="gamma_distribution.cpp">
+      <Filter>mathematics\Probability statistics\distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="poisson_distribution.cpp">
+      <Filter>mathematics\Probability statistics\distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="normal_distribution.cpp">
+      <Filter>mathematics\Probability statistics\distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="lognormal_distribution.cpp">
+      <Filter>mathematics\Probability statistics\distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="discrete_distribution.cpp">
+      <Filter>mathematics\Probability statistics\distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="bernoulli_distribution.cpp">
+      <Filter>mathematics\Probability statistics\distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="Binomial_distribution.cpp">
+      <Filter>mathematics\Probability statistics\distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="geometric_distribution.cpp">
+      <Filter>mathematics\Probability statistics\distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="negative_binomial_distribution.cpp">
+      <Filter>mathematics\Probability statistics\distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="uniform_int_distribution.cpp">
+      <Filter>mathematics\Probability statistics\distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="uniform_real_distribution.cpp">
+      <Filter>mathematics\Probability statistics\distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="weibull_distribution.cpp">
+      <Filter>mathematics\Probability statistics\distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="cauchy_distribution.cpp">
+      <Filter>mathematics\Probability statistics\distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="chi_squared_distribution.cpp">
+      <Filter>mathematics\Probability statistics\distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="fisher_f_distribution.cpp">
+      <Filter>mathematics\Probability statistics\distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="student_t_distribution.cpp">
+      <Filter>mathematics\Probability statistics\distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="piecewise_constant_distribution.cpp">
+      <Filter>mathematics\Probability statistics\distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="piecewise_linear_distribution.cpp">
+      <Filter>mathematics\Probability statistics\distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="seed_seq.cpp">
+      <Filter>mathematics\Probability statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="extreme_value_distribution.cpp">
+      <Filter>mathematics\Probability statistics\distribution</Filter>
+    </ClCompile>
+    <ClCompile Include="소스5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스6.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Pack_expansion_1.cpp">
+      <Filter>meta programming\Pack expansion</Filter>
+    </ClCompile>
+    <ClCompile Include="parameter_list.cpp">
+      <Filter>meta programming\Pack expansion</Filter>
+    </ClCompile>
+    <ClCompile Include="bind_front.cpp">
+      <Filter>meta programming\typefunction</Filter>
+    </ClCompile>
+    <ClCompile Include="소스7.cpp">
+      <Filter>meta programming</Filter>
+    </ClCompile>
+    <ClCompile Include="소스8.cpp">
+      <Filter>meta programming</Filter>
+    </ClCompile>
+    <ClCompile Include="소스9.cpp">
+      <Filter>meta programming</Filter>
+    </ClCompile>
+    <ClCompile Include="소스10.cpp">
+      <Filter>meta programming</Filter>
+    </ClCompile>
+    <ClCompile Include="소스11.cpp">
+      <Filter>meta programming</Filter>
+    </ClCompile>
+    <ClCompile Include="소스12.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스13.cpp">
+      <Filter>meta programming</Filter>
+    </ClCompile>
+    <ClCompile Include="소스14.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스15.cpp">
+      <Filter>meta programming</Filter>
+    </ClCompile>
+    <ClCompile Include="소스16.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스18.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스19.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스21.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스22.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스23.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스24.cpp">
+      <Filter>coroutine</Filter>
+    </ClCompile>
+    <ClCompile Include="소스25.cpp">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClCompile Include="소스26.cpp">
+      <Filter>meta programming\Pack expansion\fold expression</Filter>
+    </ClCompile>
+    <ClCompile Include="소스27.cpp">
+      <Filter>meta programming\Pack expansion\fold expression</Filter>
+    </ClCompile>
+    <ClCompile Include="소스28.cpp">
+      <Filter>unevaluated-context</Filter>
+    </ClCompile>
+    <ClCompile Include="소스29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스30.cpp">
+      <Filter>pips</Filter>
+    </ClCompile>
+    <ClCompile Include="소스31.cpp">
+      <Filter>meta programming</Filter>
+    </ClCompile>
+    <ClCompile Include="소스32.cpp">
+      <Filter>Memory_alignas</Filter>
+    </ClCompile>
+    <ClCompile Include="소스33.cpp">
+      <Filter>Memory_alignas</Filter>
+    </ClCompile>
+    <ClCompile Include="소스34.cpp">
+      <Filter>Memory_alignas</Filter>
+    </ClCompile>
+    <ClCompile Include="소스35.cpp">
+      <Filter>Memory_alignas</Filter>
+    </ClCompile>
+    <ClCompile Include="소스36.cpp">
+      <Filter>meta programming</Filter>
+    </ClCompile>
+    <ClCompile Include="소스37.cpp">
+      <Filter>meta programming\type_action</Filter>
+    </ClCompile>
+    <ClCompile Include="소스38.cpp">
+      <Filter>meta programming\Pack expansion\fold expression</Filter>
+    </ClCompile>
+    <ClCompile Include="소스39.cpp">
+      <Filter>mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="소스40.cpp">
+      <Filter>meta programming\Pack expansion\fold expression</Filter>
+    </ClCompile>
+    <ClCompile Include="소스41.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스42.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스43.cpp">
+      <Filter>meta programming</Filter>
+    </ClCompile>
+    <ClCompile Include="소스44.cpp">
+      <Filter>meta programming</Filter>
+    </ClCompile>
+    <ClCompile Include="소스45.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스46.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스47.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스48.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스49.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스50.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스51.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스52.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스53.cpp">
+      <Filter>meta programming\Pack expansion</Filter>
+    </ClCompile>
+    <ClCompile Include="소스54.cpp">
+      <Filter>meta programming\Pack expansion</Filter>
+    </ClCompile>
+    <ClCompile Include="소스55.cpp">
+      <Filter>meta programming\Pack expansion</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Advenced_module\main.cpp">
+      <Filter>module\Advenced_Module</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Custom_module\myapp.cpp">
+      <Filter>module\Custom_Module</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\Global_module_fragmen\Golbal_module.fragment.cpp">
+      <Filter>module\global_module_fragmen</Filter>
+    </ClCompile>
+    <ClCompile Include="소스56.cpp">
+      <Filter>meta programming\Pack expansion</Filter>
+    </ClCompile>
+    <ClCompile Include="소스57.cpp">
+      <Filter>Injected class name</Filter>
+    </ClCompile>
+    <ClCompile Include="소스58.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스59.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스60.cpp">
+      <Filter>meta programming</Filter>
+    </ClCompile>
+    <ClCompile Include="소스61.cpp">
+      <Filter>meta programming</Filter>
+    </ClCompile>
+    <ClCompile Include="소스62.cpp">
+      <Filter>meta programming</Filter>
+    </ClCompile>
+    <ClCompile Include="소스63.cpp">
+      <Filter>mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="소스64.cpp">
+      <Filter>mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="소스65.cpp">
+      <Filter>mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="소스66.cpp">
+      <Filter>meta programming</Filter>
+    </ClCompile>
+    <ClCompile Include="소스67.cpp">
+      <Filter>meta programming</Filter>
+    </ClCompile>
+    <ClCompile Include="소스68.cpp">
+      <Filter>meta programming</Filter>
+    </ClCompile>
+    <ClCompile Include="소스69.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스70.cpp">
+      <Filter>bitset</Filter>
+    </ClCompile>
+    <ClCompile Include="소스71.cpp">
+      <Filter>bitset</Filter>
+    </ClCompile>
+    <ClCompile Include="소스72.cpp">
+      <Filter>bitset</Filter>
+    </ClCompile>
+    <ClCompile Include="소스73.cpp">
+      <Filter>bitset</Filter>
+    </ClCompile>
+    <ClCompile Include="소스74.cpp">
+      <Filter>bitset</Filter>
+    </ClCompile>
+    <ClCompile Include="소스75.cpp">
+      <Filter>meta programming\Pack expansion\Tuple</Filter>
+    </ClCompile>
+    <ClCompile Include="소스76.cpp">
+      <Filter>meta programming\typefunction</Filter>
+    </ClCompile>
+    <ClCompile Include="소스77.cpp">
+      <Filter>incomplete type</Filter>
+    </ClCompile>
+    <ClCompile Include="소스78.cpp">
+      <Filter>bitset</Filter>
+    </ClCompile>
+    <ClCompile Include="소스79.cpp">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClCompile Include="소스80.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스81.cpp">
+      <Filter>Inserter</Filter>
+    </ClCompile>
+    <ClCompile Include="소스82.cpp">
+      <Filter>range\iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="소스83.cpp">
+      <Filter>find</Filter>
+    </ClCompile>
+    <ClCompile Include="views.cpp">
+      <Filter>range\views</Filter>
+    </ClCompile>
+    <ClCompile Include="views_elements.cpp">
+      <Filter>range\views</Filter>
+    </ClCompile>
+    <ClCompile Include="actions1.cpp">
+      <Filter>range\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="views2.cpp">
+      <Filter>range\views</Filter>
+    </ClCompile>
+    <ClCompile Include="views3.cpp">
+      <Filter>range\views</Filter>
+    </ClCompile>
+    <ClCompile Include="views4.cpp">
+      <Filter>range\views</Filter>
+    </ClCompile>
+    <ClCompile Include="actions2.cpp">
+      <Filter>range\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="actions3.cpp">
+      <Filter>range\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="views5.cpp">
+      <Filter>range\views</Filter>
+    </ClCompile>
+    <ClCompile Include="소스84.cpp">
+      <Filter>merges</Filter>
+    </ClCompile>
+    <ClCompile Include="views6.cpp">
+      <Filter>range\views</Filter>
+    </ClCompile>
+    <ClCompile Include="range_v3_example\accumulate_ints.cpp">
+      <Filter>range\range_exam</Filter>
+    </ClCompile>
+    <ClCompile Include="range_v3_example\any_all_none_of.cpp">
+      <Filter>range\range_exam</Filter>
+    </ClCompile>
+    <ClCompile Include="range_v3_example\calendar.cpp">
+      <Filter>range\range_exam</Filter>
+    </ClCompile>
+    <ClCompile Include="range_v3_example\comprehension_conversion.cpp">
+      <Filter>range\range_exam</Filter>
+    </ClCompile>
+    <ClCompile Include="range_v3_example\comprehensions.cpp">
+      <Filter>range\range_exam</Filter>
+    </ClCompile>
+    <ClCompile Include="range_v3_example\count.cpp">
+      <Filter>range\range_exam</Filter>
+    </ClCompile>
+    <ClCompile Include="range_v3_example\count_if.cpp">
+      <Filter>range\range_exam</Filter>
+    </ClCompile>
+    <ClCompile Include="range_v3_example\filter_transform.cpp">
+      <Filter>range\range_exam</Filter>
+    </ClCompile>
+    <ClCompile Include="range_v3_example\find.cpp">
+      <Filter>range\range_exam</Filter>
+    </ClCompile>
+    <ClCompile Include="range_v3_example\for_each_assoc.cpp">
+      <Filter>range\range_exam</Filter>
+    </ClCompile>
+    <ClCompile Include="range_v3_example\for_each_sequence.cpp">
+      <Filter>range\range_exam</Filter>
+    </ClCompile>
+    <ClCompile Include="range_v3_example\hello.cpp">
+      <Filter>range\range_exam</Filter>
+    </ClCompile>
+    <ClCompile Include="range_v3_example\is_sorted.cpp">
+      <Filter>range\range_exam</Filter>
+    </ClCompile>
+    <ClCompile Include="range_v3_example\sort_unique.cpp">
+      <Filter>range\range_exam</Filter>
+    </ClCompile>
+    <ClCompile Include="hash_join.cpp">
+      <Filter>range\join</Filter>
+    </ClCompile>
+    <ClCompile Include="simple.cpp">
+      <Filter>range\join</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_join.cpp">
+      <Filter>range\join</Filter>
+    </ClCompile>
+    <ClCompile Include="소스85.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="valarray.cpp">
+      <Filter>SIMD</Filter>
+    </ClCompile>
+    <ClCompile Include="소스86.cpp">
+      <Filter>transform</Filter>
+    </ClCompile>
+    <ClCompile Include="view_test.cpp">
+      <Filter>range\views</Filter>
+    </ClCompile>
+    <ClCompile Include="zip_0.cpp">
+      <Filter>range\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="소스87.cpp">
+      <Filter>container</Filter>
+    </ClCompile>
+    <ClCompile Include="소스88.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스89.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp_20_jthread_1.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp_20_jthread_2.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp_20_jthread_3.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="소스90.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스3.cpp">
+      <Filter>random</Filter>
+    </ClCompile>
+    <ClCompile Include="소스91.cpp">
+      <Filter>random</Filter>
+    </ClCompile>
+    <ClCompile Include="소스92.cpp">
+      <Filter>random</Filter>
+    </ClCompile>
+    <ClCompile Include="소스93.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread_safety.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="소스94.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스95.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스97.cpp">
+      <Filter>meta programming\typefunction</Filter>
+    </ClCompile>
+    <ClCompile Include="소스98.cpp">
+      <Filter>explicit specialization</Filter>
+    </ClCompile>
+    <ClCompile Include="소스99.cpp">
+      <Filter>explicit specialization</Filter>
+    </ClCompile>
+    <ClCompile Include="소스101.cpp">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClCompile Include="소스102.cpp">
+      <Filter>meta programming\Pack expansion\fold expression</Filter>
+    </ClCompile>
+    <ClCompile Include="소스103.cpp">
+      <Filter>meta programming\Pack expansion\Tuple</Filter>
+    </ClCompile>
+    <ClCompile Include="Regex1.cpp">
+      <Filter>Regex</Filter>
+    </ClCompile>
+    <ClCompile Include="Regex2.cpp">
+      <Filter>Regex</Filter>
+    </ClCompile>
+    <ClCompile Include="member_function1.cpp">
+      <Filter>member_function</Filter>
+    </ClCompile>
+    <ClCompile Include="member_function2.cpp">
+      <Filter>member_function</Filter>
+    </ClCompile>
+    <ClCompile Include="is_move_assignable0.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="is_move_assignable1.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="is_move_assignable2.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="smart_point0.cpp">
+      <Filter>smart_point</Filter>
+    </ClCompile>
+    <ClCompile Include="smart_point1.cpp">
+      <Filter>smart_point</Filter>
+    </ClCompile>
+    <ClCompile Include="smart_point2.cpp">
+      <Filter>smart_point</Filter>
+    </ClCompile>
+    <ClCompile Include="smart_point3.cpp">
+      <Filter>smart_point</Filter>
+    </ClCompile>
+    <ClCompile Include="smart_point4.cpp">
+      <Filter>smart_point</Filter>
+    </ClCompile>
+    <ClCompile Include="smart_point5.cpp">
+      <Filter>smart_point</Filter>
+    </ClCompile>
+    <ClCompile Include="smart_point6.cpp">
+      <Filter>smart_point</Filter>
+    </ClCompile>
+    <ClCompile Include="smart_point7.cpp">
+      <Filter>smart_point</Filter>
+    </ClCompile>
+    <ClCompile Include="views7.cpp">
+      <Filter>range\views</Filter>
+    </ClCompile>
+    <ClCompile Include="is_move_assignable3.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="identity.cpp">
+      <Filter>meta programming\typefunction</Filter>
+    </ClCompile>
+    <ClCompile Include="smart_point8.cpp">
+      <Filter>smart_point</Filter>
+    </ClCompile>
+    <ClCompile Include="소스96.cpp">
+      <Filter>mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="소스105.cpp">
+      <Filter>bitset</Filter>
+    </ClCompile>
+    <ClCompile Include="string_version1.cpp">
+      <Filter>CPP_Fluent\extract</Filter>
+    </ClCompile>
+    <ClCompile Include="string_version2.cpp">
+      <Filter>CPP_Fluent\extract</Filter>
+    </ClCompile>
+    <ClCompile Include="string_version3.cpp">
+      <Filter>CPP_Fluent\extract</Filter>
+    </ClCompile>
+    <ClCompile Include="string_view_version1.cpp">
+      <Filter>CPP_Fluent\extract</Filter>
+    </ClCompile>
+    <ClCompile Include="소스106.cpp">
+      <Filter>CPP_Fluent\Else_Before_If</Filter>
+    </ClCompile>
+    <ClCompile Include="NamedType-master\main.cpp">
+      <Filter>CPP_Fluent\NamedType</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticOperatorFunctions.cpp">
+      <Filter>helper_function</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>helper_function</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp_20_jthread_4.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="소스107.cpp">
+      <Filter>merges</Filter>
+    </ClCompile>
+    <ClCompile Include="소스108.cpp">
+      <Filter>range\cpp_itertools</Filter>
+    </ClCompile>
+    <ClCompile Include="소스109.cpp">
+      <Filter>SIMD</Filter>
+    </ClCompile>
+    <ClCompile Include="소스110.cpp">
+      <Filter>span</Filter>
+    </ClCompile>
+    <ClCompile Include="소스111.cpp">
+      <Filter>span</Filter>
+    </ClCompile>
+    <ClCompile Include="cpprest.cpp">
+      <Filter>cpprest_ful</Filter>
+    </ClCompile>
+    <ClCompile Include="cpprest2.cpp">
+      <Filter>cpprest_ful</Filter>
+    </ClCompile>
+    <ClCompile Include="cpprest3.cpp">
+      <Filter>cpprest_ful</Filter>
+    </ClCompile>
+    <ClCompile Include="cpprest4.cpp">
+      <Filter>cpprest_ful</Filter>
+    </ClCompile>
+    <ClCompile Include="cpprest5.cpp">
+      <Filter>cpprest_ful</Filter>
+    </ClCompile>
+    <ClCompile Include="omem\omem.cpp">
+      <Filter>helper_function</Filter>
+    </ClCompile>
+    <ClCompile Include="omem_test.cpp">
+      <Filter>helper_function</Filter>
+    </ClCompile>
+    <ClCompile Include="소스114.cpp">
+      <Filter>Comparison Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="소스113.cpp">
+      <Filter>Comparison Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="소스115.cpp">
+      <Filter>floating point</Filter>
+    </ClCompile>
+    <ClCompile Include="소스116.cpp">
+      <Filter>Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="소스117.cpp">
+      <Filter>Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="소스118.cpp">
+      <Filter>bitset\HighPerfBitPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="소스126.cpp">
+      <Filter>Lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="소스127.cpp">
+      <Filter>Lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="소스128.cpp">
+      <Filter>Lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="소스129.cpp">
+      <Filter>Lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="소스130.cpp">
+      <Filter>Regex</Filter>
+    </ClCompile>
+    <ClCompile Include="소스131.cpp">
+      <Filter>enum_switch</Filter>
+    </ClCompile>
+    <ClCompile Include="designated_initializer_list.cpp">
+      <Filter>Initializers\Designated Initializers</Filter>
+    </ClCompile>
+    <ClCompile Include="소스20.cpp">
+      <Filter>Initializers\Designated Initializers</Filter>
+    </ClCompile>
+    <ClCompile Include="designatedInitializersDefaults.cpp">
+      <Filter>Initializers\Designated Initializers</Filter>
+    </ClCompile>
+    <ClCompile Include="designatedInitializerNarrowingConversion.cpp">
+      <Filter>Initializers\Designated Initializers</Filter>
+    </ClCompile>
+    <ClCompile Include="소스132.cpp">
+      <Filter>Lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="소스133.cpp">
+      <Filter>Lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="소스134.cpp">
+      <Filter>Regex</Filter>
+    </ClCompile>
+    <ClCompile Include="소스137.cpp">
+      <Filter>Regex</Filter>
+    </ClCompile>
+    <ClCompile Include="소스138.cpp">
+      <Filter>Regex</Filter>
+    </ClCompile>
+    <ClCompile Include="소스135.cpp">
+      <Filter>Regex</Filter>
+    </ClCompile>
+    <ClCompile Include="소스136.cpp">
+      <Filter>Regex</Filter>
+    </ClCompile>
+    <ClCompile Include="소스139.cpp">
+      <Filter>Regex</Filter>
+    </ClCompile>
+    <ClCompile Include="소스140.cpp">
+      <Filter>Regex</Filter>
+    </ClCompile>
+    <ClCompile Include="소스141.cpp">
+      <Filter>Regex</Filter>
+    </ClCompile>
+    <ClCompile Include="소스142.cpp">
+      <Filter>Regex</Filter>
+    </ClCompile>
+    <ClCompile Include="소스143.cpp">
+      <Filter>Regex</Filter>
+    </ClCompile>
+    <ClCompile Include="소스144.cpp">
+      <Filter>Modern DesignPattern\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="소스145.cpp">
+      <Filter>Modern DesignPattern\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="소스146.cpp">
+      <Filter>Modern DesignPattern\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonBuilder.h">
+      <Filter>Modern DesignPattern\Builder\PersonBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Modern DesignPattern\Builder\PersonBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonBuilder.cpp">
+      <Filter>Modern DesignPattern\Builder\PersonBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonMaincpp.cpp">
+      <Filter>Modern DesignPattern\Builder\PersonBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="소스147.cpp">
+      <Filter>Modern DesignPattern\Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="소스148.cpp">
+      <Filter>Modern DesignPattern\singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="소스149.cpp">
+      <Filter>Modern DesignPattern\singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="소스150.cpp">
+      <Filter>Modern DesignPattern\singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="소스151.cpp">
+      <Filter>Modern DesignPattern\CRTP</Filter>
+    </ClCompile>
+    <ClCompile Include="소스152.cpp">
+      <Filter>Modern DesignPattern\CRTP</Filter>
+    </ClCompile>
+    <ClCompile Include="소스153.cpp">
+      <Filter>Modern DesignPattern\CRTP</Filter>
+    </ClCompile>
+    <ClCompile Include="소스154.cpp">
+      <Filter>Modern DesignPattern\CRTP</Filter>
+    </ClCompile>
+    <ClCompile Include="소스155.cpp">
+      <Filter>Modern DesignPattern\CRTP</Filter>
+    </ClCompile>
+    <ClCompile Include="소스156.cpp">
+      <Filter>SFINAE</Filter>
+    </ClCompile>
+    <ClCompile Include="소스158.cpp">
+      <Filter>range\format</Filter>
+    </ClCompile>
+    <ClCompile Include="format.cc">
+      <Filter>range\format</Filter>
+    </ClCompile>
+    <ClCompile Include="os.cc">
+      <Filter>range\format</Filter>
+    </ClCompile>
+    <ClCompile Include="소스159.cpp">
+      <Filter>thread\TaskFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="소스160.cpp">
+      <Filter>Initializers</Filter>
+    </ClCompile>
+    <ClCompile Include="소스161.cpp">
+      <Filter>Initializers</Filter>
+    </ClCompile>
+    <ClCompile Include="소스162.cpp">
+      <Filter>Initializers</Filter>
+    </ClCompile>
+    <ClCompile Include="소스163.cpp">
+      <Filter>Modern DesignPattern\Facade</Filter>
+    </ClCompile>
+    <ClCompile Include="소스164.cpp">
+      <Filter>Modern DesignPattern\Flyweight</Filter>
+    </ClCompile>
+    <ClCompile Include="소스165.cpp">
+      <Filter>Modern DesignPattern\Flyweight</Filter>
+    </ClCompile>
+    <ClCompile Include="소스166.cpp">
+      <Filter>CPP_Fluent</Filter>
+    </ClCompile>
+    <ClCompile Include="소스167.cpp">
+      <Filter>Lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="Tuple.cpp">
+      <Filter>meta programming\Pack expansion\Tuple</Filter>
+    </ClCompile>
+    <ClCompile Include="소스168.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스169.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스170.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스171.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스172.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스173.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스174.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스175.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스176.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="neo\concepts.test.cpp">
+      <Filter>concepts\neo</Filter>
+    </ClCompile>
+    <ClCompile Include="neo\iterator_concepts.test.cpp">
+      <Filter>concepts\neo</Filter>
+    </ClCompile>
+    <ClCompile Include="neo_main.cpp">
+      <Filter>concepts\neo</Filter>
+    </ClCompile>
+    <ClCompile Include="소스177.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="소스179.cpp">
+      <Filter>abbreviated function template</Filter>
+    </ClCompile>
+    <ClCompile Include="소스178.cpp">
+      <Filter>abbreviated function template</Filter>
+    </ClCompile>
+    <ClCompile Include="views8.cpp">
+      <Filter>range\views</Filter>
+    </ClCompile>
+    <ClCompile Include="소스17.cpp">
+      <Filter>visit</Filter>
+    </ClCompile>
+    <ClCompile Include="소스104.cpp">
+      <Filter>visit</Filter>
+    </ClCompile>
+    <ClCompile Include="소스180.cpp">
+      <Filter>visit</Filter>
+    </ClCompile>
+    <ClCompile Include="소스181.cpp">
+      <Filter>inplace_type</Filter>
+    </ClCompile>
+    <ClCompile Include="소스182.cpp">
+      <Filter>inplace_type</Filter>
+    </ClCompile>
+    <ClCompile Include="소스183.cpp">
+      <Filter>apply</Filter>
+    </ClCompile>
+    <ClCompile Include="소스184.cpp">
+      <Filter>apply</Filter>
+    </ClCompile>
+    <ClCompile Include="소스185.cpp">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClCompile Include="소스186.cpp">
+      <Filter>meta programming\Pack expansion</Filter>
+    </ClCompile>
+    <ClCompile Include="소스187.cpp">
+      <Filter>Today Trick Code\enumerate_pack</Filter>
+    </ClCompile>
+    <ClCompile Include="소스188.cpp">
+      <Filter>Today Trick Code\Lambda_recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="소스189.cpp">
+      <Filter>Today Trick Code\Lambda_recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="소스190.cpp">
+      <Filter>Today Trick Code\Lambda_recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="소스191.cpp">
+      <Filter>meta programming\Pack expansion</Filter>
+    </ClCompile>
+    <ClCompile Include="소스192.cpp">
+      <Filter>meta programming\Pack expansion</Filter>
+    </ClCompile>
+    <ClCompile Include="소스193.cpp">
+      <Filter>meta programming\Pack expansion</Filter>
+    </ClCompile>
+    <ClCompile Include="소스194.cpp">
+      <Filter>meta programming\Pack expansion</Filter>
+    </ClCompile>
+    <ClCompile Include="소스195.cpp">
+      <Filter>meta programming\Pack expansion\fold expression</Filter>
+    </ClCompile>
+    <ClCompile Include="new_auto.cpp">
+      <Filter>meta programming\typefunction</Filter>
+    </ClCompile>
+    <ClCompile Include="소스196.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스197.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스198.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스199.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스200.cpp">
+      <Filter>range\format</Filter>
+    </ClCompile>
+    <ClCompile Include="소스201.cpp">
+      <Filter>meta programming\Pack expansion</Filter>
+    </ClCompile>
+    <ClCompile Include="소스202.cpp">
+      <Filter>functor</Filter>
+    </ClCompile>
+    <ClCompile Include="소스203.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="소스204.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="소스205.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="소스206.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="소스207.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="소스208.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="소스209.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="소스210.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="소스211.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="test_code.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="concep_ifconstexpr.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스212.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="소스214.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="소스215.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="date-master\src\tz.cpp">
+      <Filter>date</Filter>
+    </ClCompile>
+    <ClCompile Include="소스216.cpp">
+      <Filter>date</Filter>
+    </ClCompile>
+    <ClCompile Include="bind_front2.cpp">
+      <Filter>meta programming\typefunction</Filter>
+    </ClCompile>
+    <ClCompile Include="midpoint.cpp">
+      <Filter>mathematics\Probability statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="소스112.cpp">
+      <Filter>json\nlohmann</Filter>
+    </ClCompile>
+    <ClCompile Include="소스119.cpp">
+      <Filter>json\nlohmann</Filter>
+    </ClCompile>
+    <ClCompile Include="소스120.cpp">
+      <Filter>json\nlohmann</Filter>
+    </ClCompile>
+    <ClCompile Include="소스121.cpp">
+      <Filter>json\nlohmann</Filter>
+    </ClCompile>
+    <ClCompile Include="소스122.cpp">
+      <Filter>json\nlohmann</Filter>
+    </ClCompile>
+    <ClCompile Include="소스123.cpp">
+      <Filter>json\nlohmann</Filter>
+    </ClCompile>
+    <ClCompile Include="소스124.cpp">
+      <Filter>json\nlohmann</Filter>
+    </ClCompile>
+    <ClCompile Include="소스125.cpp">
+      <Filter>json\nlohmann</Filter>
+    </ClCompile>
+    <ClCompile Include="소스217.cpp">
+      <Filter>json\SimdJson</Filter>
+    </ClCompile>
+    <ClCompile Include="소스213.cpp">
+      <Filter>Today Trick Code\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="소스218.cpp">
+      <Filter>Today Trick Code\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="소스219.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="소스220.cpp">
+      <Filter>Copy</Filter>
+    </ClCompile>
+    <ClCompile Include="소스221.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Benfords_law.cpp">
+      <Filter>mathematics\Probability statistics\distribution\Benford-rand</Filter>
+    </ClCompile>
+    <ClCompile Include="Benford_rand.hpp">
+      <Filter>mathematics\Probability statistics\distribution\Benford-rand</Filter>
+    </ClCompile>
+    <ClCompile Include="소스222.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="소스223.cpp">
+      <Filter>mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="소스224.cpp">
+      <Filter>mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="소스225.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="소스226.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="소스227.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스100.cpp">
+      <Filter>meta programming\Pack expansion\Tuple</Filter>
+    </ClCompile>
+    <ClCompile Include="소스228.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="소스229.cpp">
+      <Filter>CPP_Fluent\double_key_map</Filter>
+    </ClCompile>
+    <ClCompile Include="소스230.cpp">
+      <Filter>CPP_Fluent\double_key_map</Filter>
+    </ClCompile>
+    <ClCompile Include="소스231.cpp">
+      <Filter>CPP_Fluent\double_key_map</Filter>
+    </ClCompile>
+    <ClCompile Include="소스232.cpp">
+      <Filter>CPP_Fluent\double_key_map</Filter>
+    </ClCompile>
+    <ClCompile Include="소스233.cpp">
+      <Filter>CPP_Fluent\double_key_map</Filter>
+    </ClCompile>
+    <ClCompile Include="소스234.cpp">
+      <Filter>CPP_Fluent\double_key_map</Filter>
+    </ClCompile>
+    <ClCompile Include="소스235.cpp">
+      <Filter>CPP_Fluent</Filter>
+    </ClCompile>
+    <ClCompile Include="소스236.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="소스237.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="소스238.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="views9.cpp">
+      <Filter>range\views</Filter>
+    </ClCompile>
+    <ClCompile Include="소스239.cpp">
+      <Filter>Memory_alignas</Filter>
+    </ClCompile>
+    <ClCompile Include="소스240.cpp">
+      <Filter>meta programming\Pack expansion</Filter>
+    </ClCompile>
+    <ClCompile Include="소스241.cpp">
+      <Filter>meta programming\Pack expansion</Filter>
+    </ClCompile>
+    <ClCompile Include="소스242.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스243.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스244.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스245.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="소스246.cpp">
+      <Filter>thread\TaskFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="소스247.cpp">
+      <Filter>meta programming\Tuple</Filter>
+    </ClCompile>
+    <ClCompile Include="소스248.cpp">
+      <Filter>meta programming\Tuple</Filter>
+    </ClCompile>
+    <ClCompile Include="소스249.cpp">
+      <Filter>meta programming\typefunction</Filter>
+    </ClCompile>
+    <ClCompile Include="소스250.cpp">
+      <Filter>meta programming\typefunction</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp_20_jthread_5.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp_20_jthread_6.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp_20_jthread_7.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="소스251.cpp">
+      <Filter>meta programming\Tuple</Filter>
+    </ClCompile>
+    <ClCompile Include="소스252.cpp">
+      <Filter>concepts\sandordargo_blog</Filter>
+    </ClCompile>
+    <ClCompile Include="소스253.cpp">
+      <Filter>concepts\sandordargo_blog</Filter>
+    </ClCompile>
+    <ClCompile Include="소스254.cpp">
+      <Filter>concepts\sandordargo_blog</Filter>
+    </ClCompile>
+    <ClCompile Include="소스255.cpp">
+      <Filter>concepts\sandordargo_blog</Filter>
+    </ClCompile>
+    <ClCompile Include="소스256.cpp">
+      <Filter>concepts\sandordargo_blog</Filter>
+    </ClCompile>
+    <ClCompile Include="소스257.cpp">
+      <Filter>concepts\sandordargo_blog</Filter>
+    </ClCompile>
+    <ClCompile Include="소스258.cpp">
+      <Filter>meta programming\Tuple</Filter>
+    </ClCompile>
+    <ClCompile Include="소스259.cpp">
+      <Filter>meta programming\Tuple</Filter>
+    </ClCompile>
+    <ClCompile Include="소스260.cpp">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClCompile Include="소스261.cpp">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClCompile Include="소스262.cpp">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClCompile Include="소스263.cpp">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClCompile Include="소스264.cpp">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClCompile Include="소스265.cpp">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClCompile Include="소스266.cpp">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClCompile Include="소스267.cpp">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClCompile Include="소스268.cpp">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClCompile Include="소스269.cpp">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClCompile Include="소스270.cpp">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClCompile Include="소스271.cpp">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClCompile Include="소스272.cpp">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClCompile Include="소스273.cpp">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClCompile Include="소스274.cpp">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClCompile Include="소스275.cpp">
+      <Filter>thread\coroutine</Filter>
+    </ClCompile>
+    <ClCompile Include="소스276.cpp">
+      <Filter>thread\coroutine</Filter>
+    </ClCompile>
+    <ClCompile Include="소스277.cpp">
+      <Filter>Comparison Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="소스278.cpp">
+      <Filter>meta programming\invoke</Filter>
+    </ClCompile>
+    <ClCompile Include="소스279.cpp">
+      <Filter>Calendar\Chrono_Claender</Filter>
+    </ClCompile>
+    <ClCompile Include="소스280.cpp">
+      <Filter>Calendar\Chrono_Claender</Filter>
+    </ClCompile>
+    <ClCompile Include="소스281.cpp">
+      <Filter>Calendar\Chrono_Claender</Filter>
+    </ClCompile>
+    <ClCompile Include="소스282.cpp">
+      <Filter>Calendar\Chrono_Claender</Filter>
+    </ClCompile>
+    <ClCompile Include="소스283.cpp">
+      <Filter>Calendar\Chrono_Claender</Filter>
+    </ClCompile>
+    <ClCompile Include="소스284.cpp">
+      <Filter>Calendar\Chrono_Claender</Filter>
+    </ClCompile>
+    <ClCompile Include="소스285.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="소스286.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="소스287.cpp">
+      <Filter>range</Filter>
+    </ClCompile>
+    <ClCompile Include="소스288.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="소스289.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="소스290.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="소스290_2.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="소스291.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="소스292.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="simdjson\singleheader\simdjson.cpp">
+      <Filter>json\SimdJson</Filter>
+    </ClCompile>
+    <ClCompile Include="소스293.cpp">
+      <Filter>Today Trick Code</Filter>
+    </ClCompile>
+    <ClCompile Include="소스294.cpp">
+      <Filter>PrimaryType</Filter>
+    </ClCompile>
+    <ClCompile Include="소스295.cpp">
+      <Filter>module\ModuleTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleTest.ixx">
+      <Filter>module\ModuleTest</Filter>
+    </ClCompile>
+    <ClCompile Include="tpfvector.ixx">
+      <Filter>module\Advenced_Module</Filter>
+    </ClCompile>
+    <ClCompile Include="cst_module.ixx">
+      <Filter>module\Custom_Module</Filter>
+    </ClCompile>
+    <ClCompile Include="소스296.cpp">
+      <Filter>meta programming\typefunction</Filter>
+    </ClCompile>
+    <ClCompile Include="소스297.cpp">
+      <Filter>meta programming\typefunction</Filter>
+    </ClCompile>
+    <ClCompile Include="소스298.cpp">
+      <Filter>meta programming</Filter>
+    </ClCompile>
+    <ClCompile Include="소스299.cpp">
+      <Filter>DictionaryType</Filter>
+    </ClCompile>
+    <ClCompile Include="소스300.cpp">
+      <Filter>DictionaryType</Filter>
+    </ClCompile>
+    <ClCompile Include="소스301.cpp">
+      <Filter>DictionaryType</Filter>
+    </ClCompile>
+    <ClCompile Include="소스302.cpp">
+      <Filter>meta programming</Filter>
+    </ClCompile>
+    <ClCompile Include="소스303.cpp">
+      <Filter>Lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="소스304.cpp">
+      <Filter>concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="CppOpenSource\StrongType.cpp">
+      <Filter>CppOpenSource</Filter>
+    </ClCompile>
+    <ClCompile Include="CppOpenSource\StructBinding\StructuredBindingDeclaration1.cpp">
+      <Filter>CppOpenSource\StructBinding</Filter>
+    </ClCompile>
+    <ClCompile Include="CppOpenSource\StructBinding\StructuredBindingDeclaration2.cpp">
+      <Filter>CppOpenSource\StructBinding</Filter>
+    </ClCompile>
+    <ClCompile Include="CppOpenSource\thread\barrier.cpp">
+      <Filter>CppOpenSource\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="CppOpenSource\thread\coroutine.cpp">
+      <Filter>CppOpenSource\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="CppOpenSource\variable\Folding.cpp">
+      <Filter>CppOpenSource\Folding</Filter>
+    </ClCompile>
+    <ClCompile Include="CppOpenSource\variable\MultiVariableFunction.cpp">
+      <Filter>CppOpenSource\Folding</Filter>
+    </ClCompile>
+    <ClCompile Include="CppOpenSource\variable\VariableTuple.cpp">
+      <Filter>CppOpenSource\Folding</Filter>
+    </ClCompile>
+    <ClCompile Include="Delegate\fast_delegate\DemoEntryPoint.cpp">
+      <Filter>Delegate\fast_delegate</Filter>
+    </ClCompile>
+    <ClCompile Include="Delegate\simple_delegate\Simple_Delegate.cpp">
+      <Filter>Delegate\simple_delegate1</Filter>
+    </ClCompile>
+    <ClCompile Include="Delegate\simple_delegate2\Simple_Delegate2.cpp">
+      <Filter>Delegate\simple_delegate2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="modules\Global_module_fragmen\A.ixx">
+      <Filter>module\global_module_fragmen</Filter>
+    </None>
+    <None Include="modules\Global_module_fragmen\B.ixx">
+      <Filter>module\global_module_fragmen</Filter>
+    </None>
+    <None Include="cpp.hint" />
+    <None Include="cute_trick_caveats_20201002.md">
+      <Filter>Today Trick Code\Lambda_recursive</Filter>
+    </None>
+    <None Include="date-master\src\ios.mm">
+      <Filter>date</Filter>
+    </None>
+    <None Include="twitter.json">
+      <Filter>json\SimdJson</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="modules\Global_module_fragmen\foo.h">
+      <Filter>module\global_module_fragmen</Filter>
+    </ClInclude>
+    <ClInclude Include="NamedType-master\crtp.hpp">
+      <Filter>CPP_Fluent\NamedType</Filter>
+    </ClInclude>
+    <ClInclude Include="NamedType-master\named_type.hpp">
+      <Filter>CPP_Fluent\NamedType</Filter>
+    </ClInclude>
+    <ClInclude Include="NamedType-master\named_type_impl.hpp">
+      <Filter>CPP_Fluent\NamedType</Filter>
+    </ClInclude>
+    <ClInclude Include="NamedType-master\underlying_functionalities.hpp">
+      <Filter>CPP_Fluent\NamedType</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticOperatorFunctions.h">
+      <Filter>helper_function</Filter>
+    </ClInclude>
+    <ClInclude Include="omem\omem.hpp">
+      <Filter>helper_function</Filter>
+    </ClInclude>
+    <ClInclude Include="BitPattern.hpp">
+      <Filter>bitset\HighPerfBitPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Modern DesignPattern\Builder\PersonBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="neo\concepts.hpp">
+      <Filter>concepts\neo</Filter>
+    </ClInclude>
+    <ClInclude Include="neo\iterator_concepts.hpp">
+      <Filter>concepts\neo</Filter>
+    </ClInclude>
+    <ClInclude Include="neo\test_concept.hpp">
+      <Filter>concepts\neo</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate\fast_delegate\Delegate.h">
+      <Filter>Delegate\fast_delegate\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate\fast_delegate\DelegateBase.h">
+      <Filter>Delegate\fast_delegate\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate\fast_delegate\MultiCastDelegate.h">
+      <Filter>Delegate\fast_delegate\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate\fast_delegate\ArticleSamples.h">
+      <Filter>Delegate\fast_delegate\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate\fast_delegate\Benchmark.h">
+      <Filter>Delegate\fast_delegate\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate\fast_delegate\DelegateDemo.h">
+      <Filter>Delegate\fast_delegate\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate\fast_delegate\stdafx.h">
+      <Filter>Delegate\fast_delegate\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate\simple_delegate2\Delegate.h">
+      <Filter>Delegate\simple_delegate2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt">
+      <Filter>Lambda</Filter>
+    </Text>
+    <Text Include="sourceURL.txt">
+      <Filter>Modern DesignPattern</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

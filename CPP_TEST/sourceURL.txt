@@ -1,0 +1,4 @@
+http://www.vishalchovatiya.com/singleton-design-pattern-in-modern-cpp/
+
+CRTP ∆–≈œ
+http://www.vishalchovatiya.com/crtp-c-examples/
